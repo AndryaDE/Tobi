@@ -53,6 +53,8 @@ Func __MisConFiBtn_Pass()
 	EndIf
 	$ts = TimerInit()
 
+	Task(MouseMove, Random(200, 500), Random(100, 300))
+	Task(Wait)
 	Task(SecureClick, "right")
 	Task(Wait)
 
