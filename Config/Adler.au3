@@ -46,8 +46,9 @@ Global Const $BATTLE_TEM2_SELECTED = [$__adlr_battle_tem2_selected1, $__adlr_bat
 
 #endregion
 #region Inventory
-Local $__adlr_inventory1 = [ 870,  29,   74,  74,  74,   3,  3,  3]
-Local $__adlr_inventory2 = [ 284,  32,  155, 155, 155,   3,  3,  3]
+;Local $__adlr_inventory1 = [ 870,  29,   74,  74,  74,   3,  3,  3] ;pre-kisiwa
+Local $__adlr_inventory1 = [ 870,  29,  178, 178, 178,   6,  6,  6]
+Local $__adlr_inventory2 = [ 284,  32,  149, 149, 149,   9,  9,  9]
 Global Const $INVENTORY[2] = [$__adlr_inventory1, $__adlr_inventory2]
 
 Local $__adlr_inventory_capture1 = [ 491,  15, 177, 254, 255,   3,   3,   3]

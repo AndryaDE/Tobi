@@ -48,7 +48,7 @@ Func __MacFreeTem_state() ;state
 			If Note("Temcard") == "low" Then
 				AddState(MicroMan_Resupply, $MINITEMPORIUM_VENDOR, $FARMSPOT_GLASSYWAY_RAIBER)
 			Else
-				AddState(Overworld_MovePatterDvd, -5, 4)
+				AddState(Overworld_MovePatterDvd, 8, -24)
 			EndIf
 
 		Case Adler($CONFIRMBUTTON)
